@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Weardrobe" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+        <item name="fontFamily">@font/montserrat</item>
+        
+        <item name="buttonStyle">@style/CustomButtonStyle</item>
+        
+        <item name="android:statusBarColor">@color/statusBarColor</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+    
+    <style name="CustomButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
+    <style name="Theme.Weardrobe" parent="Base.Theme.Weardrobe" />
+</resources>
